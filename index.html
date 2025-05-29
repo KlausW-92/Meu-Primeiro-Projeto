@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/home.css">
     <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Landing Page</title>
 </head>
 <body>
   <header>
     <nav id="navbar">
-        <i class="fa-solid fa-burger" id="nav_logo" food</i>
+        <i class="fa-solid fa-burger" id="nav_logo" food>
+
+        </i>
 
         <ul id="nav_list">
             <li class="nav-item active">
@@ -209,8 +212,68 @@
         </div>
     </section>
 
+    <section id="testimonials">
+        <img src="src/images/chef/chef.png" id="testimonial_chef" alt="">
+        
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Depoimentos
+
+            </h2> 
+            
+            <h3 class="section-subtitle">
+                O que os clientes falam sobre nós
+            </h3>
+            
+            <div id="feedbacks">
+                <div class="feedback">
+                    <img src="src/images/avatar/avatar.png" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p>
+                            Fulana de Tal
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "Atendimento excelente e o Strogonoff estava divino, amei"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-default">
+                Ver mais avaliações 
+            </button>
+        </div>
     
+    </section>
   </main>
+  <footer>
+    <img src="src/images/wave.svg">
+
+    <div id="footer_itens">
+        <span id="copyright">
+            &copy 2025 Klaus W Becker
+        </span>
+        <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    
+                    <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+        
+
+
+    </div>
+  </footer>
   
   <script src="src/javascript/script.js"></script>
 </body>
