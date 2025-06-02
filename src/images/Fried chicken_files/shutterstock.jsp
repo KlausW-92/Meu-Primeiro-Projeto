@@ -2919,7 +2919,7 @@ if (typeof usi_analytics === 'undefined') {
 
 				var usi_boost_css = [
 					'#usi_boost_close {height:100%; width:5%; right:5%; top:0; bottom:0; position:absolute; color:rgba(12,18,28,.87); font-size:2em; text-decoration:none;}',
-					'#usi_boost_container {position:fixed; bottom:0; left:0; right:0; width:100%; text-align:center; font-size:1.25em; background:#fff; color:rgba(12,18,28,.87); padding:1em 2.5em; line-height: 1; z-index:2147483647;box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.33);}'
+					'#usi_boost_container {position:fixed; bottom:0; left:0; right:0; width:100%; text-align:center; font-size:1.25em; background:var(--color-neutral-0) color:rgba(12,18,28,.87); padding:1em 2.5em; line-height: 1; z-index:2147483647;box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.33);}'
 				].join('');
 				usi_app.boostbar.place_css(usi_boost_css);
 
